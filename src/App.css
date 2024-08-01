@@ -1,0 +1,58 @@
+
+body{
+    background-color: rgb(248, 248, 211);
+}
+.card-container {
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  .card-cover img {
+    height: 200px; /* O'lchamlarni moslashtiring */
+    object-fit: cover; /* Tasvirning qoplamasini o'zgartiradi */
+  }
+  
+  .card-meta {
+    text-align: center; /* Matnni markazlashtirish */
+  }
+  
+  .card-title {
+    font-size: 16px; /* Sarlavha o'lchamini belgilash */
+  }
+  
+  .card-description {
+    font-size: 14px; /* Ta'rif o'lchamini belgilash */
+    color: #888; /* Rangni belgilash */
+  }
+  
+  .card-container {
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    width: 100%;
+  }
+  
+  .card-cover {
+    width: 100%;
+    height: 200px; /* Tasvirning balandligini sozlash */
+    object-fit: cover; /* Tasvirning o'lchamiga moslash */
+  }
+  
+  .card-title {
+    font-size: 24px; /* H2 font o'lchami */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-price {
+    color: black; /* Price qora rangda bo'lishi uchun */
+    font-weight: bold;
+    margin-bottom: 10px; /* Descriptiondan farq qilish uchun */
+  }
+  
